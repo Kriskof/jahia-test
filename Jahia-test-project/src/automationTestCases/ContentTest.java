@@ -1,3 +1,5 @@
+package automationTestCases;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -14,13 +16,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import objectRepository.loginPage;
+import pageObjects.loginPage;
 
 public class ContentTest {
 	
 	static WebDriver driver = null;
 	
 	@BeforeClass
+	// login before class
 	public void login()
 	{
 
@@ -44,11 +47,13 @@ public class ContentTest {
 	}
 	
 	@Test
+	// Verify able to add content and publish and that content is available through frontend as well as GraphQL API
 	public void publishRichText() {		
 		
 		/* Notes: 
 		 * - create object repository for other pages 
 		 * - create data provider such as JSON 
+		 * - create xml dependencies
 		 * */
 		
 		// switch to Tabs iframe
@@ -116,6 +121,7 @@ public class ContentTest {
 	}
 	
 	@AfterClass
+	// tear down driver after class
 	public void tearDown(){
 		
 		// close driver

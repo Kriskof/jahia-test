@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-30T12:28:55 EDT" name="Default suite" finished-at="2021-04-30T12:29:05 EDT" duration-ms="9791">
+  <suite started-at="2021-04-30T12:46:27 EDT" name="Default suite" finished-at="2021-04-30T12:46:37 EDT" duration-ms="10196">
     <groups>
     </groups>
-    <test started-at="2021-04-30T12:28:55 EDT" name="Default test" finished-at="2021-04-30T12:29:05 EDT" duration-ms="9791">
-      <class name="ContentTest">
-        <test-method is-config="true" signature="login()[pri:0, instance:ContentTest@548e6d58]" started-at="2021-04-30T12:28:55 EDT" name="login" finished-at="2021-04-30T12:28:58 EDT" duration-ms="2871" status="PASS">
+    <test started-at="2021-04-30T12:46:27 EDT" name="Default test" finished-at="2021-04-30T12:46:37 EDT" duration-ms="10196">
+      <class name="automationTestCases.ContentTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:automationTestCases.ContentTest@2f465398]" started-at="2021-04-30T12:46:27 EDT" name="login" finished-at="2021-04-30T12:46:30 EDT" duration-ms="2786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="publishRichText()[pri:0, instance:ContentTest@548e6d58]" started-at="2021-04-30T12:28:58 EDT" name="publishRichText" finished-at="2021-04-30T12:29:04 EDT" duration-ms="6249" status="PASS">
+        <test-method signature="publishRichText()[pri:0, instance:automationTestCases.ContentTest@2f465398]" started-at="2021-04-30T12:46:30 EDT" name="publishRichText" finished-at="2021-04-30T12:46:37 EDT" duration-ms="6708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- publishRichText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ContentTest@548e6d58]" started-at="2021-04-30T12:29:04 EDT" name="tearDown" finished-at="2021-04-30T12:29:05 EDT" duration-ms="648" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationTestCases.ContentTest@2f465398]" started-at="2021-04-30T12:46:37 EDT" name="tearDown" finished-at="2021-04-30T12:46:37 EDT" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- ContentTest -->
+      </class> <!-- automationTestCases.ContentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
